@@ -7,7 +7,7 @@
      background-color: #facd3d;
 }
 .linkwhite{
-     color: #ddd;
+     color: #ffffff;
      font-weight: 600;
      font-size: 1.2em;
 }
@@ -16,9 +16,13 @@
      font-weight: 600;
      font-size: 1.2em;
 }
-.linkwhite + .linkblack:hover{
-     color:  #ffffff;
+.linkwhite:hover{
+     color: #facd3d;
+} 
+.linkblack:hover {
+     color:  white;
 }
+
 @media only screen and (max-width:992px)  {
      .linkblack {
           font-size: 1em;

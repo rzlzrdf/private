@@ -1,0 +1,71 @@
+.container {
+     min-height: 100vh;
+     background: rgb(86,35,164);
+background: linear-gradient(0deg, rgba(86,35,164,1) 0%, rgba(86,38,196,1) 100%);
+}
+.container2{
+     min-height: 100vh;
+     background-color: #facd3d;
+}
+.container3{
+     min-height: 100vh;
+     background: rgb(250,205,61);
+background: linear-gradient(0deg, rgba(250,205,61,1) 0%, rgba(250,202,26,1) 100%);
+}
+.hero1_left {
+     position: relative;
+     margin-top: 10%;
+     left: -5%;
+}
+
+.hero1_right {
+     position: relative;
+     margin-top: 10%;
+     left: -4%;
+}
+.hero1_right h1{
+     font-size: 4vw;
+     overflow: visible;
+}
+.hero1_right p, ul{
+     font-size: 1vw;
+}
+
+.sh {
+     width: 100%;
+     position: relative;
+}
+.dp {
+     width: 88%;
+     position: relative;
+}
+
+.bulat {
+     background-color: #facd3d;
+     width: 70%;
+     aspect-ratio: 1/1;
+     border-radius: 209px 10px 399px 99px;
+     position: absolute;
+     top: -4%;
+     left: 15%;
+     z-index: 0;
+}
+
+.btn {
+     background-color: transparent;
+     border: 3px solid #5626c4;
+     border-radius: 20px;
+     height: 50px;
+     width: 25%;
+     color: #5626c4;
+     margin-left: 20%;
+     margin-top: 2%;
+     font-weight: 700;
+}
+
+.btn:hover{
+     background-color: #5626c4;
+     border: 3px solid #5626c4;
+}
+
+
