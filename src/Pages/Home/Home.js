@@ -49,22 +49,24 @@ const Home = () => {
                   <li>
                     <div className={style.timelineContent}>
                       <h1>Public Vocational High School 4 Malang</h1>
-                      <p>2015-2018</p>
+                      <p className='fw-normal'>2015 - 2018</p>
                       <p>
-
+                        I majored in computer and network engineering, with an interest in learning web development. This is where I became interested in the world of technology, especially web development
                       </p>
                     </div>
                   </li>
                   <li>
                     <div className={style.timelineContent}>
-                      <h1>Heading 2</h1>
-                      <p>", adipisci velit...Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+                      <h1>Universitas Brawijaya</h1>
+                      <p className='fw-normal'>2019 - Now</p>
+                      <p>"I Study in the Information technology Education Study Program, here I learned many new things about the world of education and information technology. However, for my scientific interests, I remain in software development, especially web development."</p>
                     </div>
                   </li>
                   <li>
                     <div className={style.timelineContent}>
-                      <h1>Heading 2</h1>
-                      <p>"dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+                      <h1>Binar Academy</h1>
+                      <p className='fw-normal'>Complete in 2022</p>
+                      <p>Through a program organized by the Ministry of Education and Culture, I participated in a bootcamp with Binar Academy with a JavaScript frontend course path</p>
                     </div>
                   </li>
                 </ul>

@@ -16,7 +16,7 @@ const Portofolio = () => {
               <Button className={style.sh + " " + style.btn}>Visit</Button>
             </Col>
             <Col lg={4} className={style.hero1_right}>
-              <h1 className='text-light fw-bold'>Second <br/> Hand</h1>
+              <h1 className='text-light fw-bold'>Second <br /> Hand</h1>
               <p className='text-light fw-light'>
                 An e-commerce that has a feature to bargain between buyers and sellers. This project was created as one of the graduation requirements for bootcamp
               </p>
@@ -39,9 +39,9 @@ const Portofolio = () => {
               <Button className={style.sh + " " + style.btn}>Visit</Button>
             </Col>
             <Col lg={4} className={style.hero1_right}>
-              <h1 className='text-dark fw-bold'>Dupalo <br/> Pusat</h1>
+              <h1 className='text-dark fw-bold'>Dupalo <br /> Pusat</h1>
               <p className='text-black fw-light'>
-                An e-commerce that has a feature to bargain between buyers and sellers. This project was created as one of the graduation requirements for bootcamp
+                An industrial company profile website engaged in incense, with a catalog feature that is connected to Tokopedia for ordering or purchasing
               </p>
               <ul className='text-dark'>
                 <li>NextJS</li>
@@ -61,7 +61,7 @@ const Portofolio = () => {
               <Button className={style.sh + " " + style.btn}>Visit</Button>
             </Col>
             <Col lg={4} className={style.hero1_right}>
-              <h1 className='text-dark fw-bold'>Clarissa <br/> Salon</h1>
+              <h1 className='text-dark fw-bold'>Clarissa <br /> Salon</h1>
               <p className='text-dark'>
                 An e-commerce that has a feature to bargain between buyers and sellers. This project was created as one of the graduation requirements for bootcamp
               </p>
