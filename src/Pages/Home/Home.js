@@ -45,12 +45,13 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg={10} md={12}>
+              <h1 className={style.headingmob}>MY Joureny</h1>
               <div className={style.timeline}>
                 <ul>
                   <li>
                     <div className={style.timelineContent}>
                       <h1>Public Vocational High School 4 Malang</h1>
-                      <p className='fw-normal'>2015 - 2018</p>
+                      <p className={style.date}>2015 - 2018</p>
                       <p>
                         "I majored in computer and network engineering, with an interest in learning web development. This is where I became interested in the world of technology, especially web development."
                       </p>
@@ -59,22 +60,22 @@ const Home = () => {
                   <li>
                     <div className={style.timelineContent}>
                       <h1>Universitas Brawijaya</h1>
-                      <p className='fw-normal'>2019 - Now</p>
-                      <p>"I Study in the Information technology Education Study Program, here I learned many new things about the world of education and information technology. However, for my scientific interests, I remain in software development, especially web development."</p>
+                      <p className={style.date}>2019 - Now</p>
+                      <p>"I Study in the Information Technology Education Study Program, here I learned many new things about the world of education and information technology. However, for my scientific interests, I remain in software development, especially web development."</p>
                     </div>
                   </li>
                   <li>
                     <div className={style.timelineContent}>
                       <h1>Binar Academy</h1>
-                      <p className='fw-normal'>Complete in 2022</p>
+                      <p className={style.date}>Complete in 2022</p>
                       <p>"Through a program organized by the Ministry of Education and Culture, I participated in a bootcamp with Binar Academy with a JavaScript frontend course path"</p>
                     </div>
                   </li>
                   <li>
                     <div className={style.timelineContent}>
                       <h1>Freelance Frontend Web Dev</h1>
-                      <p className='fw-normal'>Start on March 2022</p>
-                      <p>"Through a program organized by the Ministry of Education and Culture, I participated in a bootcamp with Binar Academy with a JavaScript frontend course path"</p>
+                      <p className={style.date}>March 2022 - Now</p>
+                      <p>"When entering the sixth semester of study, I tried to become a freelancer to add skills and some pocket money"</p>
                     </div>
                   </li>
                 </ul>

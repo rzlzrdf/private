@@ -12,13 +12,12 @@ html {
 
 .heading1 {
      writing-mode: vertical-rl;
-     text-orientation: mixed;
-     font-size: 7em;
+     text-orientation: upright;
+     font-size: 3.3vw;
      display: flex;
-     justify-content: center;
-     height: 100vh;
+     justify-content: flex-end;
+     min-height: 100%;
      font-weight: 700;
-     text-decoration: underline double;
 }
 
 .sectionOne {
@@ -122,8 +121,8 @@ html {
 /* TIMELINE */
 
 .sectionTwo {
-     min-height: 100vh;
      width: 100%;
+     height: fit-content;
      display: flex;
      align-items: center;
      justify-content: center;
@@ -135,7 +134,7 @@ html {
      width: 90%;
      height: 100%;
      max-width: 950px;
-     margin: 0 auto;
+     margin: 0 10px;
      position: relative;
 }
 
@@ -159,24 +158,25 @@ html {
      margin-bottom: 0;
 }
 
-.timeline-content h1 {
+.timelineContent h1 {
      font-weight: 500;
-     font-size: 25px;
-     line-height: 30px;
-     margin-bottom: 10px;
+     font-size: 100%;
+     line-height: 20px;
+     margin-bottom: 8px;
 }
 
-.timeline-content p {
-     font-size: 16px;
-     line-height: 30px;
-     font-weight: 300;
+.timelineContent p {
+     font-size: 80%;
+     line-height: 20px;
+     font-weight: 200;
 }
 
-.timeline-content .date {
-     font-size: 12px;
-     font-weight: 300;
-     margin-bottom: 10px;
+.timelineContent .date {
+     font-size: 90%;
+     font-weight: 500;
+     margin-bottom: 8px;
      letter-spacing: 2px;
+     text-align: end;
 }
 
 #landscape {
@@ -226,6 +226,13 @@ html {
 }
 
 @media only screen and (min-width: 768px) {
+
+     .headingmob{
+          display: flex;
+          justify-content: center;
+          margin-bottom: 40px;
+          text-align: center;
+     }
      .timeline:before {
           content: "";
           position: absolute;
@@ -284,6 +291,13 @@ html {
 
      .timeline ul li:hover::before {
           background-color: coral;
+     }
+     
+}
+
+@media only screen and (max-width: 600px) {
+     .headingmob{
+          text-align: center;
      }
 }
 
