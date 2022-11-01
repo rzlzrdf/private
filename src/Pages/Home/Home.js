@@ -43,8 +43,32 @@ const Home = () => {
       <section id='aboutTwo' className={style.sectionTwo}>
         <Container>
           <Row>
-            <Col lg={4} className={style.education}>
+            <Col lg={10}>
+              <div className={style.timeline}>
+                <ul>
+                  <li>
+                    <div className={style.timelineContent}>
+                      <h1>Public Vocational High School 4 Malang</h1>
+                      <p>2015-2018</p>
+                      <p>
 
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div className={style.timelineContent}>
+                      <h1>Heading 2</h1>
+                      <p>", adipisci velit...Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div className={style.timelineContent}>
+                      <h1>Heading 2</h1>
+                      <p>"dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
             </Col>
           </Row>
         </Container>
