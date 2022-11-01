@@ -15,7 +15,7 @@ const Portofolio = () => {
               <img src='./img/sh1.png' alt='SecondHand E-Commerce' className={style.sh} />
               <a className={style.sh + " " + style.btn} href='https://secondhand72.vercel.app/'>Visit</a>
             </Col>
-            <Col lg={4} className={style.hero1_right}>
+            <Col lg={4} sm={12} className={style.hero1_right}>
               <h1 className='text-light fw-bold'>Second <br /> Hand</h1>
               <p className='text-light fw-light'>
                 An e-commerce that has a feature to bargain between buyers and sellers. This project was created as one of the graduation requirements for bootcamp
@@ -26,6 +26,7 @@ const Portofolio = () => {
                 <li>Bootstrap</li>
                 <li>Heroku</li>
               </ul>
+              <a className={style.btnM} href='https://www.dupalopusat.com/'>Visit</a>
             </Col>
           </Row>
         </Container>
@@ -48,6 +49,7 @@ const Portofolio = () => {
                 <li>Bootstrap</li>
                 <li>Vercel</li>
               </ul>
+              <a className={style.btnM} href='https://www.dupalopusat.com/'>Visit</a>
             </Col>
           </Row>
         </Container>

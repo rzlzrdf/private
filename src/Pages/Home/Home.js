@@ -8,11 +8,12 @@ import Header from '../Porto/Header'
 import 'animate.css';
 import Typewriter from 'typewriter-effect'
 
+
 const Home = () => {
 
   return (
     <>
-      <Header />
+      <Header className={style.landscape} />
       <section className={style.sectionOne}>
         <Container className={style.container}>
           <Row>
@@ -43,7 +44,7 @@ const Home = () => {
       <section id='aboutTwo' className={style.sectionTwo}>
         <Container>
           <Row>
-            <Col lg={10}>
+            <Col lg={10} md={12}>
               <div className={style.timeline}>
                 <ul>
                   <li>
@@ -51,7 +52,7 @@ const Home = () => {
                       <h1>Public Vocational High School 4 Malang</h1>
                       <p className='fw-normal'>2015 - 2018</p>
                       <p>
-                        I majored in computer and network engineering, with an interest in learning web development. This is where I became interested in the world of technology, especially web development
+                        "I majored in computer and network engineering, with an interest in learning web development. This is where I became interested in the world of technology, especially web development."
                       </p>
                     </div>
                   </li>
@@ -66,11 +67,21 @@ const Home = () => {
                     <div className={style.timelineContent}>
                       <h1>Binar Academy</h1>
                       <p className='fw-normal'>Complete in 2022</p>
-                      <p>Through a program organized by the Ministry of Education and Culture, I participated in a bootcamp with Binar Academy with a JavaScript frontend course path</p>
+                      <p>"Through a program organized by the Ministry of Education and Culture, I participated in a bootcamp with Binar Academy with a JavaScript frontend course path"</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div className={style.timelineContent}>
+                      <h1>Freelance Frontend Web Dev</h1>
+                      <p className='fw-normal'>Start on March 2022</p>
+                      <p>"Through a program organized by the Ministry of Education and Culture, I participated in a bootcamp with Binar Academy with a JavaScript frontend course path"</p>
                     </div>
                   </li>
                 </ul>
               </div>
+            </Col>
+            <Col lg={2} md={0}>
+              <h1 className={style.heading1}>MY JOURNEY</h1>
             </Col>
           </Row>
         </Container>
@@ -89,6 +100,10 @@ const Home = () => {
             </Col>
           </Row>
         </Container>
+      </section>
+      <section id={style.landscape}>
+        <img src='./img/phone.png' alt=''/>
+        <h1>   Please rotate to Potrait</h1>
       </section>
     </>
   )

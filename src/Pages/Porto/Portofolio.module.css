@@ -1,17 +1,20 @@
 .container {
      min-height: 100vh;
-     background: rgb(86,35,164);
-background: linear-gradient(0deg, rgba(86,35,164,1) 0%, rgba(86,38,196,1) 100%);
+     background: rgb(86, 35, 164);
+     background: linear-gradient(0deg, rgba(86, 35, 164, 1) 0%, rgba(86, 38, 196, 1) 100%);
 }
-.container2{
+
+.container2 {
      min-height: 100vh;
      background-color: #facd3d;
 }
-.container3{
+
+.container3 {
      min-height: 100vh;
-     background: rgb(250,205,61);
-background: linear-gradient(0deg, rgba(250,205,61,1) 0%, rgba(250,202,26,1) 100%);
+     background: rgb(250, 205, 61);
+     background: linear-gradient(0deg, rgba(250, 205, 61, 1) 0%, rgba(250, 202, 26, 1) 100%);
 }
+
 .hero1_left {
      position: relative;
      margin-top: 10%;
@@ -23,18 +26,22 @@ background: linear-gradient(0deg, rgba(250,205,61,1) 0%, rgba(250,202,26,1) 100%
      margin-top: 10%;
      left: -4%;
 }
-.hero1_right h1{
-     font-size: 4vw;
+
+.hero1_right h1 {
+     font-size: 4em;
      overflow: visible;
 }
-.hero1_right p, ul{
-     font-size: 1vw;
+
+.hero1_right p,
+ul {
+     font-size: 1.2em;
 }
 
 .sh {
      width: 100%;
      position: relative;
 }
+
 .dp {
      width: 88%;
      position: relative;
@@ -66,10 +73,96 @@ background: linear-gradient(0deg, rgba(250,205,61,1) 0%, rgba(250,202,26,1) 100%
      text-align: center;
 }
 
-.btn:hover{
+.btnM {
+     display: none;
+     background-color: #facd3d;
+     border: 3px solid coral;
+     border-radius: 20px;
+     height: fit-content;
+     width: fit-content;
+     color: #5626c4;
+     padding: 10px 70px;
+     margin-left: 20%;
+     margin-top: 2%;
+     font-weight: 700;
+     text-align: center;
+}
+
+.btn:hover {
+     background-color: transparent;
+     border: 3px solid #5626c4;
+     color: white;
+}
+
+.btnM:hover {
      background-color: #5626c4;
      border: 3px solid #5626c4;
      color: white;
 }
 
+@media only screen and (max-width: 992px) {
+     .hero1_left {
+          margin-top: 15%;
+          left: 0%;
+     }
 
+     .hero1_right {
+          margin: 7% 0%;
+          left: 0%;
+          padding: 0 10%;
+     }
+
+     .hero1_right br {
+          display: none;
+     }
+
+     .hero1_right h1 {
+          font-size: 40px;
+          text-align: center;
+     }
+
+     .hero1_right p,
+     ul {
+          font-size: 20px;
+          text-align: justify;
+     }
+
+     .btn {
+          background-color: #5626c4;
+          color: white;
+     }
+
+     .btn:hover {
+          background-color: coral;
+          border-color: coral;
+     }
+
+     .dp {
+          width: 96%;
+          left: 3%;
+     }
+}
+
+@media only screen and (max-width: 500px) {
+     .hero1_left {
+          margin-top: 29%;
+     }
+
+     .hero1_right h1 {
+          margin-top: 13%;
+          font-size: 32px;
+     }
+
+     .hero1_right p,
+     ul {
+          font-size: 14px;
+     }
+
+     .btn {
+          display: none;
+     }
+
+     .btnM {
+          display: block;
+     }
+}
