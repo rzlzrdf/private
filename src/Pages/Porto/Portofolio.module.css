@@ -52,20 +52,24 @@ background: linear-gradient(0deg, rgba(250,205,61,1) 0%, rgba(250,202,26,1) 100%
 }
 
 .btn {
+     display: block;
      background-color: transparent;
      border: 3px solid #5626c4;
      border-radius: 20px;
-     height: 50px;
-     width: 25%;
+     height: fit-content;
+     width: fit-content;
      color: #5626c4;
+     padding: 10px 70px;
      margin-left: 20%;
      margin-top: 2%;
      font-weight: 700;
+     text-align: center;
 }
 
 .btn:hover{
      background-color: #5626c4;
      border: 3px solid #5626c4;
+     color: white;
 }
 
 

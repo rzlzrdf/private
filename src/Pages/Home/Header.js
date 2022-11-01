@@ -24,7 +24,7 @@ const Header = () => {
           <Nav className="mx-auto gap-4 ">
             <Link to={'/'} className={colorChange ? style.linkblack : style.linkwhite}>About</Link>
             <Link to={'/portofolio'} className={colorChange ? style.linkblack : style.linkwhite}>Portofolio</Link>
-            <Link to={'/contact'} className={colorChange ? style.linkblack : style.linkwhite}>Contact</Link>
+            <a to={'/#contact'} className={colorChange ? style.linkblack : style.linkwhite}>Contact</a>
           </Nav>
         </Navbar.Collapse>
       </Container>

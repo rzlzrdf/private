@@ -13,7 +13,7 @@ const Portofolio = () => {
             <Col lg={8} className={style.hero1_left}>
               <div className={style.bulat + ' shadow-lg'}></div>
               <img src='./img/sh1.png' alt='SecondHand E-Commerce' className={style.sh} />
-              <Button className={style.sh + " " + style.btn}>Visit</Button>
+              <a className={style.sh + " " + style.btn} href='https://secondhand72.vercel.app/'>Visit</a>
             </Col>
             <Col lg={4} className={style.hero1_right}>
               <h1 className='text-light fw-bold'>Second <br /> Hand</h1>
@@ -36,7 +36,7 @@ const Portofolio = () => {
             <Col lg={8} className={style.hero1_left}>
               <div className={style.bulat + ' shadow-lg'}></div>
               <img src='./img/dp1.png' alt='Dupalo Pusat' className={style.dp} />
-              <Button className={style.sh + " " + style.btn}>Visit</Button>
+              <a className={style.sh + " " + style.btn} href='https://www.dupalopusat.com/'>Visit</a>
             </Col>
             <Col lg={4} className={style.hero1_right}>
               <h1 className='text-dark fw-bold'>Dupalo <br /> Pusat</h1>
