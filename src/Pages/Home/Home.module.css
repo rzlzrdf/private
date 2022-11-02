@@ -183,6 +183,10 @@ html {
      display: none;
 }
 
+.headingmob{
+     display: none;
+}
+
 @media only screen and (max-width: 991px) {
      .typer {
           font-size: 3em;

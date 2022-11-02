@@ -93,7 +93,7 @@ const Home = () => {
             <Col lg={12} className={style.contact}>
               <div>
                 <h1 className='fs-1 fw-bolder text-dark'>Contact Me</h1>
-                <h4 className=''><BsTelegram size={40} /> (+62)85738719488</h4>
+                <h4 className=''><BsTelegram size={40} /> @rzlzrdf</h4>
                 <h4 className=''><AiTwotoneMail size={40} /> rizallazu76@gmail.com</h4>
                 <h4 className=''><BsLinkedin size={40} /> rzlzrdf</h4>
                 <h4 className=''><BsGithub size={40} /> rzlzrdf</h4>
@@ -104,7 +104,7 @@ const Home = () => {
       </section>
       <section id={style.landscape}>
         <img src='./img/phone.png' alt=''/>
-        <h1>   Please rotate to Potrait</h1>
+        <h1> Please rotate to Potrait</h1>
       </section>
     </>
   )
