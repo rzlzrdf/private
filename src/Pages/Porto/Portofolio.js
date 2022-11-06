@@ -59,16 +59,37 @@ const Portofolio = () => {
           <Row>
             <Col lg={8} className={style.hero1_left}>
               <div className={style.bulat + ' shadow-lg'}></div>
-              <img src='./img/dp1.png' alt='Dupalo Pusat' className={style.dp} />
+              <img src='./img/nft (1).png' alt='Project Creatures' className={style.nft} />
+              <img src='./img/nft (2).png' alt='Project Creatures' className={style.nft} />
               <Button className={style.sh + " " + style.btn}>Visit</Button>
             </Col>
             <Col lg={4} className={style.hero1_right}>
-              <h1 className='text-dark fw-bold'>Clarissa <br /> Salon</h1>
+              <h1 className='text-dark fw-bold'>Project Creatures</h1>
               <p className='text-dark'>
-                An e-commerce that has a feature to bargain between buyers and sellers. This project was created as one of the graduation requirements for bootcamp
+                A freelance project for a client's nft buying and selling web page. The job description on the project to create website pages with native html and css that are accurate by design
               </p>
               <ul className='text-dark'>
-                <li>NextJS</li>
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+      <section className={style.container3}>
+        <Container>
+          <Row>
+            <Col lg={8} className={style.hero1_left}>
+              <div className={style.bulat + ' shadow-lg'}></div>
+              <img src='./img/bcr.png' alt='Project Creatures' className={style.dp} />
+              <Button className={style.sh + " " + style.btn}>Visit</Button>
+            </Col>
+            <Col lg={4} className={style.hero1_right}>
+              <h1 className='text-dark fw-bold'>Binar Car Rental</h1>
+              <p className='text-dark'>
+                A case study to implement a car rental web page design using react              </p>
+              <ul className='text-dark'>
+                <li>ReactJS</li>
                 <li>Bootstrap</li>
                 <li>Vercel</li>
               </ul>

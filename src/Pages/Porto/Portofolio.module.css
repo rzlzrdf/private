@@ -38,13 +38,19 @@ ul {
 }
 
 .sh {
-     width: 100%;
+     width: 90%;
      position: relative;
 }
 
 .dp {
-     width: 88%;
+     width: 80%;
      position: relative;
+}
+
+.nft {
+     width: 24%;
+     position: relative;
+     left: 20%;
 }
 
 .bulat {
