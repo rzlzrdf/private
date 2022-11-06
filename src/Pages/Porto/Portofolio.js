@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Col, Container, Row } from 'react-bootstrap'
+import {  Col, Container, Row } from 'react-bootstrap'
 import Header from './Header'
 import style from './Portofolio.module.css'
 
@@ -61,7 +61,7 @@ const Portofolio = () => {
               <div className={style.bulat + ' shadow-lg'}></div>
               <img src='./img/nft (1).png' alt='Project Creatures' className={style.nft} />
               <img src='./img/nft (2).png' alt='Project Creatures' className={style.nft} />
-              <Button className={style.sh + " " + style.btn}>Visit</Button>
+              <a href='https://rawcdn.githack.com/dhikaaldhika22/project-creatures/7dbd8946254efd3fe90fd697ffcf99e294badbd8/home/index.html' className={style.sh + " " + style.btn}>Visit</a>
             </Col>
             <Col lg={4} className={style.hero1_right}>
               <h1 className='text-dark fw-bold'>Project Creatures</h1>
@@ -82,7 +82,7 @@ const Portofolio = () => {
             <Col lg={8} className={style.hero1_left}>
               <div className={style.bulat + ' shadow-lg'}></div>
               <img src='./img/bcr.png' alt='Project Creatures' className={style.dp} />
-              <Button className={style.sh + " " + style.btn}>Visit</Button>
+              <a href='https://rizal-c4.vercel.app/' className={style.sh + " " + style.btn}>Visit</a>
             </Col>
             <Col lg={4} className={style.hero1_right}>
               <h1 className='text-dark fw-bold'>Binar Car Rental</h1>
