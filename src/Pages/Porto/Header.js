@@ -7,28 +7,30 @@ import style from './Header.module.css'
 const Header = () => {
 
   const [colorChange, setColorchange] = useState(false);
-  const changeNavbarColor = () =>{
-     if(window.scrollY >= window.innerHeight-50){
-       setColorchange(true);
-     }
-     else{
-       setColorchange(false);
-     }
+  const changeNavbarColor = () => {
+    if (window.scrollY >= window.innerHeight - 50) {
+      setColorchange(true);
+    }
+    else {
+      setColorchange(false);
+    }
   };
   window.addEventListener('scroll', changeNavbarColor);
-  
+
   return (
-    <Navbar className={colorChange ? style.yellow : style.purple} fixed={'top'}>
-    <Container>
-     <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="mx-auto gap-4 ">
-            <Link to={'/'} className={ colorChange ? style.linkblack : style.linkwhite }>About</Link>
-            <Link to={'/portofolio'} className={ colorChange ? style.linkblack : style.linkwhite }>Portofolio</Link>
-            <a href={'/#contact'} className={ colorChange ? style.linkblack : style.linkwhite }>Contact</a>
-          </Nav>
-     </Navbar.Collapse>
-    </Container>
-  </Navbar>
+    <>
+      <Navbar className={colorChange ? style.yellow : style.purple} fixed={'top'}>
+        <Container>
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="mx-auto gap-4 ">
+              <Link to={'/'} className={colorChange ? style.linkblack : style.linkwhite}>About</Link>
+              <Link to={'/portofolio'} className={colorChange ? style.linkblack : style.linkwhite}>Portofolio</Link>
+              <a href={'/#contact'} className={colorChange ? style.linkblack : style.linkwhite}>Contact</a>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+    </>
   )
 }
 

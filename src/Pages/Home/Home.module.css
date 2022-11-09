@@ -8,7 +8,29 @@
 
 html {
      font-family: "Montserrat";
+     position: relative;
+
 }
+
+::-webkit-scrollbar {
+     display: none;
+}
+
+main {
+     z-index: 1;
+}
+
+.progressBar {
+     position: fixed;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     height: 5px;
+     background-color: red;
+     transform-origin: 0%;
+     z-index: 2;
+}
+
 
 .heading1 {
      writing-mode: vertical-rl;
@@ -65,11 +87,10 @@ html {
 }
 
 .profile:hover {
-     width: 65.2%;
      box-shadow: 2px 1px 60px 12px rgba(250, 205, 61, 0.98);
      -webkit-box-shadow: 2px 1px 60px 12px rgba(250, 205, 61, 0.98);
      -moz-box-shadow: 2px 1px 60px 12px rgba(250, 205, 61, 0.98);
-     transition: all 0.2s ease-out;
+     transition: all 0.4s ease-out;
 }
 
 .location {
@@ -183,8 +204,9 @@ html {
      display: none;
 }
 
-.headingmob{
+.headingmob {
      display: none;
+
 }
 
 @media only screen and (max-width: 991px) {
@@ -198,10 +220,6 @@ html {
 
      .profile {
           width: 65.2%;
-     }
-
-     .profile:hover {
-          width: 50.5%;
      }
 
      .left1 {
@@ -227,16 +245,12 @@ html {
      .heading1 {
           display: none;
      }
+
 }
 
 @media only screen and (min-width: 768px) {
 
-     .headingmob{
-          display: flex;
-          justify-content: center;
-          margin-bottom: 40px;
-          text-align: center;
-     }
+
      .timeline:before {
           content: "";
           position: absolute;
@@ -296,14 +310,9 @@ html {
      .timeline ul li:hover::before {
           background-color: coral;
      }
-     
+
 }
 
-@media only screen and (max-width: 600px) {
-     .headingmob{
-          text-align: center;
-     }
-}
 
 @media only screen and (min-device-width : 412px) and (max-device-width : 915px) and (orientation : landscape) {
 
@@ -333,4 +342,6 @@ html {
           display: block;
           width: 50px;
      }
+
+
 }

@@ -1,32 +1,49 @@
-.purple{
+.progressBar {
+     position: sticky;
+     top: 0;
+     left: 0;
+     right: 0;
+     height: 10px;
+     background: red;
+     transform-origin: 0%;
+}
+
+.purple {
      height: 8vh;
      background-color: #5626c4;
+     margin-top: 10px;
 }
-.yellow{
+
+.yellow {
      height: 8vh;
      background-color: #facd3d;
 }
-.linkwhite{
+
+.linkwhite {
      color: #ffffff;
      font-weight: 600;
      font-size: 1.2em;
 }
-.linkblack{
+
+.linkblack {
      color: #222222;
      font-weight: 600;
      font-size: 1.2em;
 }
-.linkwhite:hover{
+
+.linkwhite:hover {
      color: #facd3d;
-} 
-.linkblack:hover {
-     color:  white;
 }
 
-@media only screen and (max-width:992px)  {
+.linkblack:hover {
+     color: white;
+}
+
+@media only screen and (max-width:992px) {
      .linkblack {
           font-size: 1em;
      }
+
      .linkwhite {
           font-size: 1em;
      }

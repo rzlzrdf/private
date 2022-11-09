@@ -1,39 +1,51 @@
-.purple{
+.purple {
      height: 8vh;
      background-color: #5626c4;
+     position: fixed;
+     width: 100%;
+
 }
-.yellow{
+
+.yellow {
+     width: 100%;
      height: 8vh;
      background-color: #facd3d;
 }
-.linkwhite{
+
+.linkwhite {
      color: #ffffff;
      font-weight: 600;
      font-size: 1.2em;
 }
-.linkblack{
+
+.linkblack {
      color: #222222;
      font-weight: 600;
      font-size: 1.2em;
 }
-.linkwhite:hover{
+
+.linkwhite:hover {
      color: #facd3d;
-} 
-.linkblack:hover {
-     color:  white;
 }
 
-@media only screen and (max-width:992px)  {
+.linkblack:hover {
+     color: white;
+}
+
+@media only screen and (max-width:992px) {
      .linkblack {
           font-size: 1em;
      }
+
      .linkwhite {
           font-size: 1em;
      }
 }
 
 @media only screen and (min-device-width : 412px) and (max-device-width : 915px) and (orientation : landscape) {
-     .yellow, .purple{
+
+     .yellow,
+     .purple {
           display: none;
      }
 }

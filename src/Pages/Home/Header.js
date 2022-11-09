@@ -18,7 +18,7 @@ const Header = () => {
   window.addEventListener('scroll', changeNavbarColor);
 
   return (
-    <Navbar className={colorChange ? style.yellow : style.purple} fixed={'top'}>
+    <Navbar className={colorChange ? style.yellow : style.purple} >
       <Container>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mx-auto gap-4 ">
