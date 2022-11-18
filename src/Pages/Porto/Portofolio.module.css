@@ -1,16 +1,19 @@
 .container {
-     min-height: 100vh;
+     height: 100vh;
+     min-height: 700px;
      background: rgb(86, 35, 164);
      background: linear-gradient(0deg, rgba(86, 35, 164, 1) 0%, rgba(86, 38, 196, 1) 100%);
 }
 
 .container2 {
-     min-height: 100vh;
+     height: 100vh;
+     min-height: 700px;
      background-color: #facd3d;
 }
 
 .container3 {
-     min-height: 100vh;
+     height: 100vh;
+     min-height: 700px;
      background: rgb(250, 205, 61);
      background: linear-gradient(0deg, rgba(250, 205, 61, 1) 0%, rgba(250, 202, 26, 1) 100%);
 }
