@@ -1,6 +1,5 @@
 import React from 'react'
-import { Card, Col, Container, Row } from 'react-bootstrap'
-// import {  Col, Container, Row } from 'react-bootstrap'
+import {  Col, Container, Row } from 'react-bootstrap'
 import Header from './Header'
 import style from './Services.module.css'
 
