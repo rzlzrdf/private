@@ -1,5 +1,6 @@
 import React from 'react'
 import {  Col, Container, Row } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 import Header from './Header'
 import style from './Portofolio.module.css'
 
@@ -103,7 +104,7 @@ const Portofolio = () => {
             <Col lg={8} className={style.hero1_left}>
               <div className={style.bulat + ' shadow-lg'}></div>
               <img src='./img/quran.png' alt='eQuran-rzl' className={style.dp} />
-              <a href='https:/equran-rzl.vercel.app/' className={style.sh + " " + style.btn}>Visit</a>
+              <Link href='https://equran-rzl.vercel.app/' className={style.sh + " " + style.btn}>Visit</Link>
             </Col>
             <Col lg={4} className={style.hero1_right}>
               <h1 className='text-dark fw-bold'>eQruan - rzl</h1>
