@@ -97,6 +97,28 @@ const Portofolio = () => {
           </Row>
         </Container>
       </section>
+      <section className={style.container3}>
+        <Container>
+          <Row>
+            <Col lg={8} className={style.hero1_left}>
+              <div className={style.bulat + ' shadow-lg'}></div>
+              <img src='./img/quran.png' alt='eQuran-rzl' className={style.dp} />
+              <a href='https:/equran-rzl.vercel.app/' className={style.sh + " " + style.btn}>Visit</a>
+            </Col>
+            <Col lg={4} className={style.hero1_right}>
+              <h1 className='text-dark fw-bold'>eQruan - rzl</h1>
+              <p className='text-dark'>
+                Electronic quran platform with light and fast perfromance, visitor can read and hear per ayahs.
+              </p>
+              <ul className='text-dark'>
+                <li>NextJS</li>
+                <li>TailwindCSS</li>
+                <li>Vercel</li>
+              </ul>
+            </Col>
+          </Row>
+        </Container>
+      </section>
     </>
   )
 }
