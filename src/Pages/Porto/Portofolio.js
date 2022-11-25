@@ -14,7 +14,7 @@ const Portofolio = () => {
             <Col lg={8} className={style.hero1_left}>
               <div className={style.bulat + ' shadow-lg'}></div>
               <img src='./img/sh1.png' alt='SecondHand E-Commerce' className={style.sh} />
-              <a className={style.sh + " " + style.btn} href='https://secondhand72.vercel.app/'>Visit</a>
+              <Link className={style.sh + " " + style.btn} to='https://secondhand72.vercel.app/'>Visit</Link>
             </Col>
             <Col lg={4} sm={12} className={style.hero1_right}>
               <h1 className='text-light fw-bold'>Second <br /> Hand</h1>
@@ -27,7 +27,7 @@ const Portofolio = () => {
                 <li>Bootstrap</li>
                 <li>Heroku</li>
               </ul>
-              <a className={style.btnM} href='https://www.dupalopusat.com/'>Visit</a>
+              <Link className={style.btnM} to='https://www.dupalopusat.com/'>Visit</Link>
             </Col>
           </Row>
         </Container>
@@ -50,7 +50,7 @@ const Portofolio = () => {
                 <li>Bootstrap</li>
                 <li>Vercel</li>
               </ul>
-              <a className={style.btnM} href='https://www.dupalopusat.com/'>Visit</a>
+              <Link className={style.btnM} to='https://www.dupalopusat.com/'>Visit</Link>
             </Col>
           </Row>
         </Container>
@@ -62,7 +62,7 @@ const Portofolio = () => {
               <div className={style.bulat + ' shadow-lg'}></div>
               <img src='./img/nft (1).png' alt='Project Creatures' className={style.nft} />
               <img src='./img/nft (2).png' alt='Project Creatures' className={style.nft} />
-              <a href='https://rawcdn.githack.com/dhikaaldhika22/project-creatures/7dbd8946254efd3fe90fd697ffcf99e294badbd8/home/index.html' className={style.sh + " " + style.btn}>Visit</a>
+              <Link to='https://rawcdn.githack.com/dhikaaldhika22/project-creatures/7dbd8946254efd3fe90fd697ffcf99e294badbd8/home/index.html' className={style.sh + " " + style.btn}>Visit</Link>
             </Col>
             <Col lg={4} className={style.hero1_right}>
               <h1 className='text-dark fw-bold'>Project Creatures</h1>
@@ -83,7 +83,7 @@ const Portofolio = () => {
             <Col lg={8} className={style.hero1_left}>
               <div className={style.bulat + ' shadow-lg'}></div>
               <img src='./img/bcr.png' alt='Project Creatures' className={style.dp} />
-              <a href='https://rizal-c4.vercel.app/' className={style.sh + " " + style.btn}>Visit</a>
+              <Link to='https://rizal-c4.vercel.app/' className={style.sh + " " + style.btn}>Visit</Link>
             </Col>
             <Col lg={4} className={style.hero1_right}>
               <h1 className='text-dark fw-bold'>Binar Car Rental</h1>
@@ -104,7 +104,7 @@ const Portofolio = () => {
             <Col lg={8} className={style.hero1_left}>
               <div className={style.bulat + ' shadow-lg'}></div>
               <img src='./img/quran.png' alt='eQuran-rzl' className={style.dp} />
-              <Link href='https://equran-rzl.vercel.app/' className={style.sh + " " + style.btn}>Visit</Link>
+              <Link to='https://equran-rzl.vercel.app/' className={style.sh + " " + style.btn}>Visit</Link>
             </Col>
             <Col lg={4} className={style.hero1_right}>
               <h1 className='text-dark fw-bold'>eQruan - rzl</h1>
